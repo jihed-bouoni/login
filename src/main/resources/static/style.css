@@ -1,0 +1,66 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 0.625rem;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.75;
+  background: #457D21;
+  font-family: sans-serif;
+}
+
+.form {
+  width: 35%;
+  background: white;
+  margin: 0 auto;
+  margin-top: 5%;
+  box-shadow: 5px 5px 5px #333;
+
+}
+
+.padding {
+  padding: 12%;
+}
+
+.input {
+  background: #E2E2E3;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  display: block;
+  width: 100%;
+  color: #666;
+  padding: 5%;
+  font-size: 1.6rem;
+  margin-bottom: 8%;
+}
+
+button {
+  color: #fffff0;
+  background: #276819;
+  width: 100%;
+  font-size: 2rem;
+  padding: 5%;
+  font-weight: 100;
+  margin-bottom: 5%;
+}
+.input::placeholder {
+  color: #aaa;
+  font-size: 1.6rem;
+}
+
+.form p {
+  color: #aaa;
+  text-align: center;
+}
+
+.account {
+  color: #63af36;
+}
